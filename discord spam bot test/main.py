@@ -1,5 +1,7 @@
-import spamtest
-import spamtest2
 import os
 
-os.system(spamtest & spamtest2)
+
+print("Running Number 1")
+os.system('python spamtest.py')
+print("Running Number 2")
+os.system('python spamtest2.py')
